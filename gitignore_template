@@ -1,0 +1,33 @@
+##################
+# Terraform files
+##################
+**/*.terraform
+**/*.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+#################
+# Private Keys
+#################
+**/.tf_key/*
+**/*private*.pem
+**/*key*.pem
+
+
+###############
+# mac_files
+###############
+**/.ds_store/*
+.ds_store
+**/.idea/*
+*.iml
+
+##############
+# Other
+#############
+.ignoreme
+**/*.zip
+crash.log
+
